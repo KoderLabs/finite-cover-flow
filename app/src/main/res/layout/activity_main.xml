@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/flow_activity_scene"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/fs"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Fullscreen Slider"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/eh"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Ecommerce Horizontal Slider"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ev"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Ecommerce Vertical Slider"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/oh"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Overlap Horizontal Slider"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ov"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Overlap Vertical Slider"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ih"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Imageviewer Horizontal Slider"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/iv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Imageviewer Vertical Slider"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:constraint_referenced_ids="eh,ev,oh,ov,ih,iv,fs"
+        app:flow_maxElementsWrap="2"
+        app:flow_verticalStyle="packed"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
