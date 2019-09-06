@@ -30,7 +30,7 @@ Add finite flow and viewpager2 library to your app module's `build.gradle` file:
 ```gradle
 dependencies {
     //Cover flow
-    implementation ''com.github.saeed-younus:finite-cover-flow:1.0.0''
+    implementation 'com.github.saeed-younus:finite-cover-flow:1.0.0'
     //ViewPager2
     implementation 'androidx.viewpager2:viewpager2:1.0.0-beta03'
 }
