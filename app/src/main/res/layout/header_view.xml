@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BasicFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#6666ff"
+        android:gravity="center"
+        android:padding="2dp"
+        app:cornerRadius="8dp"
+        app:iconGravity="start"
+        app:icon="@drawable/ic_chevron_right_black_24dp"
+        app:iconSize="100dp" />
+
+</FrameLayout>

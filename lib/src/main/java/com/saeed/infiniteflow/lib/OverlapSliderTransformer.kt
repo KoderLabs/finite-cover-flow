@@ -17,8 +17,8 @@ class OverlapSliderTransformer(
 ) : ViewPager2.PageTransformer {
 
     init {
-        require(minScale in 1f..0f) { "minScale value should be between 1.0 to 0.0" }
-        require(unSelectedItemAlpha in 1f..0f) { "unSelectedItemAlpha value should be between 1.0 to 0.0" }
+        require(minScale in 0f..1f) { "minScale value should be between 1.0 to 0.0" }
+        require(unSelectedItemAlpha in 0f..1f) { "unSelectedItemAlpha value should be between 1.0 to 0.0" }
     }
 
     private val scalingValue = 0.2f

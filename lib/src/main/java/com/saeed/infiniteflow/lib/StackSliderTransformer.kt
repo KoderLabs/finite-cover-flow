@@ -12,7 +12,7 @@ class StackSliderTransformer(
 
     init {
         require(behindScale >= 0f) { "Behind Scale value must be positive" }
-        require(behindAlpha in 1f..0f) { "unSelectedItemAlpha value should be between 1.0 to 0.0" }
+        require(behindAlpha in 0f..1f) { "unSelectedItemAlpha value should be between 1.0 to 0.0" }
     }
 
     override fun transformPage(page: View, position: Float) {

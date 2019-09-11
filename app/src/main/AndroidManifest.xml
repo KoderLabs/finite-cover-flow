@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-
+        <activity android:name=".floatingheader.FloatingHeaderActivity"/>
         <activity android:name=".overlapslider.VerticalOverlapExampleActivity" />
         <activity android:name=".overlapslider.HorizontalOverlapExampleActivity" />
         <activity android:name=".ecommerce.HorizontalEcommorceItemExampleActivity" />
@@ -25,7 +25,6 @@
             android:name=".fullscreenslider.FullScreenActivity"
             android:label="@string/title_activity_full_screen"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
