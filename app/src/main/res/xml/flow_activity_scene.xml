@@ -22,6 +22,13 @@
                 android:text="Fullscreen Slider"
                 tools:ignore="MissingConstraints" />
         </Constraint>
+        <Constraint android:id="@+id/infs">
+            <Layout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Fullscreen Slider"
+                tools:ignore="MissingConstraints" />
+        </Constraint>
         <Constraint android:id="@+id/eh">
             <Layout
                 android:layout_width="180dp"
@@ -73,6 +80,13 @@
                 android:text="Fullscreen Slider"
                 tools:ignore="MissingConstraints" />
         </Constraint>
+        <Constraint android:id="@+id/infs">
+            <Layout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Fullscreen Slider"
+                tools:ignore="MissingConstraints" />
+        </Constraint>
         <Constraint android:id="@+id/eh">
             <Layout
                 android:layout_width="180dp"
@@ -105,7 +119,7 @@
             <Layout
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                motion:constraint_referenced_ids="fs,eh,ev,oh,ov"
+                motion:constraint_referenced_ids="infs,fs,eh,ev,oh,ov"
                 motion:flow_maxElementsWrap="1"
                 motion:flow_verticalStyle="packed"
                 motion:flow_wrapMode="aligned"

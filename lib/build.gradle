@@ -37,7 +37,7 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
 
     //Material
-    implementation 'com.google.android.material:material:1.2.0-alpha02'
+    implementation 'com.google.android.material:material:1.2.0-alpha03'
 
     // Dynamic Animation
     implementation 'androidx.dynamicanimation:dynamicanimation:1.0.0'

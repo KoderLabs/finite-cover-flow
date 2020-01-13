@@ -10,6 +10,7 @@ import androidx.dynamicanimation.animation.SpringForce
 import com.saeed.infiniteflow.example.ecommerce.HorizontalEcommorceItemExampleActivity
 import com.saeed.infiniteflow.example.ecommerce.VerticalEcommorceItemExampleActivity
 import com.saeed.infiniteflow.example.fullscreenslider.FullScreenActivity
+import com.saeed.infiniteflow.example.infinitepagerexample.InfiniteHorizontalCrouselExampleActivity
 import com.saeed.infiniteflow.example.overlapslider.HorizontalOverlapExampleActivity
 import com.saeed.infiniteflow.example.overlapslider.VerticalOverlapExampleActivity
 import com.saeed.infiniteflow.example.simplecrousel.HorizontalImageViewerExampleActivity
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
 
         fs.setOnClickListener {
             val intent = Intent(this@MainActivity, FullScreenActivity::class.java)
+            startActivity(intent)
+        }
+
+        infs.setOnClickListener {
+            val intent = Intent(this@MainActivity, InfiniteHorizontalCrouselExampleActivity::class.java)
             startActivity(intent)
         }
 
