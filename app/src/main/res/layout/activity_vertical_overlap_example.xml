@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <!-- crousel -->
-    <com.saeed.infiniteflow.lib.FinitePagerContainer
+    <com.saeed.finiteflow.lib.FinitePagerContainer
         android:id="@+id/pager_container"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:orientation="vertical" />
 
-    </com.saeed.infiniteflow.lib.FinitePagerContainer>
+    </com.saeed.finiteflow.lib.FinitePagerContainer>
 
     <TextView
         android:id="@+id/title_text_view"

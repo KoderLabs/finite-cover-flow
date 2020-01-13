@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.saeed.infiniteflow.example">
+    package="com.saeed.finiteflow.example">
 
     <dist:module dist:instant="true" />
 
@@ -14,25 +14,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".floatingheader.FloatingHeaderActivity"/>
-        <activity android:name=".overlapslider.VerticalOverlapExampleActivity" />
-        <activity android:name=".overlapslider.HorizontalOverlapExampleActivity" />
-        <activity android:name=".ecommerce.HorizontalEcommorceItemExampleActivity" />
-        <activity android:name=".ecommerce.VerticalEcommorceItemExampleActivity" />
-        <activity android:name=".simplecrousel.VerticalImageViewerExampleActivity" />
-        <activity android:name=".simplecrousel.HorizontalImageViewerExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.floatingheader.FloatingHeaderActivity"/>
+        <activity android:name="com.saeed.finiteflow.example.overlapslider.VerticalOverlapExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.overlapslider.HorizontalOverlapExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.ecommerce.HorizontalEcommorceItemExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.ecommerce.VerticalEcommorceItemExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.simplecrousel.VerticalImageViewerExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.simplecrousel.HorizontalImageViewerExampleActivity" />
         <activity
-            android:name=".fullscreenslider.FullScreenActivity"
+            android:name="com.saeed.finiteflow.example.fullscreenslider.FullScreenActivity"
             android:label="@string/title_activity_full_screen"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.saeed.finiteflow.example.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".infinitepagerexample.InfiniteHorizontalCrouselExampleActivity" />
+        <activity android:name="com.saeed.finiteflow.example.infinitepagerexample.InfiniteHorizontalCrouselExampleActivity" />
     </application>
 
 </manifest>
